@@ -122,7 +122,7 @@ pipeline {
             slackSend(tokenCredentialId: 'slack-token'
                 , channel: '#교육'
                 , color: 'danger'
-                , message: "${JOB_NAME} (${BUILD_NUMBER}) 빌드가 실패하였습니다. Details: (<${BUILD_URL} | here >)")
+                , message: "${JOB_NAME} (${BUILD_NUMBER}) 빌드 fail !!!. Details: (<${BUILD_URL} | here >)")
     }
   }
 }
